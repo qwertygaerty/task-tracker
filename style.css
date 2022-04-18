@@ -53,6 +53,7 @@ h1 {
     border: none;
 }
 
+
 .edit-inputs-h1 {
     font-size: 1.25rem;
     font-weight: 600;
@@ -97,7 +98,7 @@ h1 {
 
 .details-modal-edit-inputs:focus {
     border: 1px solid var(--purple);
-    padding: 8px .8em;
+
 }
 
 
@@ -622,6 +623,7 @@ and (max-device-width: 568px) {
     .task-details {
         width: 100%;
         display: flex;
+        border: none;
     }
 
     .details-modal {
@@ -636,16 +638,16 @@ and (max-device-width: 568px) {
     }
 
     .details-modal .details-modal-content {
-
+        padding: 1rem 1rem;
     }
 
     .tag-progress,
     .task-activity {
         flex-basis: 100%;
         background: var(--white);
-        border-radius: 8px;
         width: 100%;
-        padding: 1rem 2rem;
+        padding: 1rem 1rem;
+        border-radius: 0;
     }
 
     .project-participants__add {
